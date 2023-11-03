@@ -5,3 +5,5 @@ function solution(num1, num2) {
 
 // 풀이1
 // const solution = (num1, num2) => num1 - num2
+
+// test
