@@ -1,3 +1,5 @@
+// 두 수의 차
+
 function solution(num1, num2) {
     const answer = num1 - num2;
     return answer;
@@ -5,5 +7,3 @@ function solution(num1, num2) {
 
 // 풀이1
 // const solution = (num1, num2) => num1 - num2
-
-// test
