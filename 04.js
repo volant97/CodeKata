@@ -10,3 +10,6 @@ console.log(solution(23));
 // function solution(age) {
 //   return new Date().getFullYear() - age + 1;
 // }
+
+
+// 제출
