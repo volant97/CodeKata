@@ -19,3 +19,6 @@ console.log(solution(1, 16));
 // ex) Math.floor(23.3) = 23, Math.floor(-23.3) = -24가 된다.
 
 // 음수인 경우도 생각해서 소수점을 이하 수를 없애고 싶을때는 Math.trunc를 사용하는 것이 좋다.
+
+
+// 제출

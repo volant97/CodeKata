@@ -18,3 +18,6 @@ console.log(solution(7, 99));
 
 
 // 다른 풀이
+
+
+// 제출
