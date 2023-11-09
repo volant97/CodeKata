@@ -48,3 +48,6 @@ console.log(solution(180));  // 4
 //       return angle > 0 && angle < 90 ? 1 : 3;
 //   }
 // }
+
+
+// 제출
