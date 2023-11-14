@@ -38,14 +38,14 @@ console.log(solution("a B z", 4));  // "e F d"
 
 
 // 다른 풀이 1 : split, join
-// (separator="") 글자별로 잘라서 배열에 담기
-// (separator=",") 특정 구분자로 잘라서 배열에 담기
+// (split="") 글자별로 잘라서 배열에 담기
+// (split=",") 특정 구분자로 잘라서 배열에 담기
+// (split=" ") 단어별로 잘라서 배열에 담기 
 
 // function solution(s, n) {
 //     var chars = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXY                          "
 //     return s.split('').map(e => chars[chars.indexOf(e)+n]).join('');
 // }
-// (separator=" ") 단어별로 잘라서 배열에 담기 
 
 
 
