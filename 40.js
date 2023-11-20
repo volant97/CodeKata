@@ -1,19 +1,7 @@
-// 부족한 금액 계산하기
+// 3진법 뒤집기
 
-function solution(price, money, count) {
-  let answer = 0;
-  for (let i = 1; i <= count; i++) {
-    answer += price * i
-  }
-  return money > answer ? 0 : answer - money;
+function solution(n) {
+  return parseInt([...n.toString(3)].reverse().join(""), 3);
 }
 
-console.log(solution(3, 20, 4));  // 10
-
-
-// 다른 풀이 1 - 가우스 공식
-// function solution(price, money, count) {
-//     const tmp = price * count * (count + 1) / 2 - money;
-//     return tmp > 0 ? tmp : 0;
-// }
-
+console.log(solution(45))
