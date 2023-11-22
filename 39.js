@@ -10,7 +10,7 @@ function solution(n, m) {
 }
 // 최대공약수
 // 재귀함수
-function gcd(maxN, maxN) {
+function gcd(minN, maxN) {
   return minN % maxN === 0 ? maxN : gcd(maxN, minN % maxN);
 }
 // 최소공배수 : 두 수의 곱 = 최대공약수 * 최소공배수 따라서, 최소공배수 = 두 수의 곱 / 최대공약수
