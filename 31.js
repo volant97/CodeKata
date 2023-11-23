@@ -16,8 +16,9 @@ console.log(solution(3)); // "수박수"
 console.log(solution(4)); // "수박수박"
 
 // 다른 풀이 1
-// function solution(n) {
-//   return "수박".repeat(n).substring(0,n)
+// function solution1(n) {
+//   console.log("수박".repeat(n).substring(0, n));
+//   return "수박".repeat(n).substring(0, n);
 // }
 
 // 다른 풀이 2
