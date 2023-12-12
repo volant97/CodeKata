@@ -1,24 +1,27 @@
 // 문자열 내림차순으로 배치하기
 
-//     for(i=0; i<s.length; i++){
-//        codeAt.push(s.charCodeAt(i))
-//     }
+// function solution(s) {
+//   var answer = "";
+//   let codeAt = [];
 
-//     const a = codeAt.sort((a,b)=>b-a).join(", ")
-//     console.log("a : ", a)
+//   for (i = 0; i < s.length; i++) {
+//     codeAt.push(s.charCodeAt(i));
+//   }
 
-//     // String.fromCharCode(104, 72, 49, 32);
-//     console.log(String.fromCharCode(a))
-//     return answer;
+//   const a = codeAt.sort((a, b) => b - a).join(", ");
+//   console.log("a : ", a);
+
+//   console.log(String.fromCharCode(a));
+//   return answer;
 // }
 
 console.log(solution("Zbcdefg")); // "gfedcbZ"
 
 // 다른 풀이 1
-function solution(s) {
-  // console.log(s.split('').sort().reverse().join(''))
-  return s.split("").sort().reverse().join("");
-}
+// function solution(s) {
+//   // console.log(s.split('').sort().reverse().join(''))
+//   return s.split("").sort().reverse().join("");
+// }
 
 // https://velog.io/@ne_ol/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%B9%98%ED%95%98%EA%B8%B0JavaScript
 
