@@ -13,3 +13,5 @@ function solution(number) {
   }
   return answer;
 }
+
+// console.log(`${number[i]}+${number[j]}+${number[k]} ---`, number[i]+number[j]+number[k])
