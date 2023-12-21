@@ -43,15 +43,15 @@ function solution(s) {
 
 // 다른 풀이 1
 // function solution(s) {
-//     s = s.replace(/zero/gi, 0)
-//     .replace(/one/gi, 1)
-//     .replace(/two/gi, 2)
-//     .replace(/three/gi, 3)
-//     .replace(/four/gi, 4)
-//     .replace(/five/gi, 5)
-//     .replace(/six/gi, 6)
-//     .replace(/seven/gi, 7)
-//     .replace(/eight/gi, 8)
-//     .replace(/nine/gi, 9)
+//     s = s.replace(/zero/g, 0)
+//     .replace(/one/g, 1)
+//     .replace(/two/g, 2)
+//     .replace(/three/g, 3)
+//     .replace(/four/g, 4)
+//     .replace(/five/g, 5)
+//     .replace(/six/g, 6)
+//     .replace(/seven/g, 7)
+//     .replace(/eight/g, 8)
+//     .replace(/nine/g, 9)
 //     return parseInt(s);
 // }

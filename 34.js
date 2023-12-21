@@ -34,3 +34,6 @@ console.log(solution("Zbcdefg")); // "gfedcbZ"
 
 // obj.sort((a, b) => (a > b ? -1 : 1)
 // obj.sort((a, b) => b.localeCompare(a))
+
+// sort((a, b) => b - a) 문자열에서는 안되는 이유 => 숫자만 가능
+// https://peach-milk.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Lv1-%EA%B0%99%EC%9D%80-%EC%88%AB%EC%9E%90%EB%8A%94-%EC%8B%AB%EC%96%B4-JavaScript
