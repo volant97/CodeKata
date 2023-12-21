@@ -15,7 +15,7 @@
 //   return answer;
 // }
 
-console.log(solution("Zbcdefg")); // "gfedcbZ"
+// console.log(solution("Zbcdefg")); // "gfedcbZ"
 
 // 다른 풀이 1
 // function solution(s) {
@@ -37,3 +37,11 @@ console.log(solution("Zbcdefg")); // "gfedcbZ"
 
 // sort((a, b) => b - a) 문자열에서는 안되는 이유 => 숫자만 가능
 // https://peach-milk.tistory.com/entry/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Lv1-%EA%B0%99%EC%9D%80-%EC%88%AB%EC%9E%90%EB%8A%94-%EC%8B%AB%EC%96%B4-JavaScript
+
+// 대문자가 그대로 앞으로 오네...?
+// console.log(
+//   "Zbcdefg"
+//     .split("")
+//     .sort((a, b) => b.localeCompare(a))
+//     .join("")
+// );
