@@ -66,6 +66,7 @@ function solution(n) {
 }
 
 // 다른풀이4
+// 배열 뒷쪽에 하나씩 넣어서 피보나치 수 배열 만드는 방법
 function solution(n) {
   let fib = [0, 1];
   for (let i = 2; i <= n; i++) {
