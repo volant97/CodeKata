@@ -1,4 +1,4 @@
-// 효율성 중요
+// 효율성 문제
 // Math.max() : 배열은 전달하면 NaN 출력 → 스프레드(...) 연산자 사용해서 요소들을 분해하고 전달
 function solution(arr) {
   const length = arr.length;
