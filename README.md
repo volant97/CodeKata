@@ -184,3 +184,4 @@
 
 - 37~38
 - DS_Store 제거 완료
+- gitignore 등록
