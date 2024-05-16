@@ -10,3 +10,8 @@ function solution(array) {
 
   return count;
 }
+
+// 다른풀이1
+function solution(array) {
+  return array.join("").split("7").length - 1;
+}
