@@ -15,6 +15,7 @@ function solution(num_list, n) {
 
 // 다른풀이1
 // splice한 배열을 넣기
+// while문 : num_list.length은 언젠가 0이 되기때문에 반복문이 멈춘다
 function solution(num_list, n) {
   var answer = [];
 
