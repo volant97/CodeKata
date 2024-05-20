@@ -1,5 +1,4 @@
 function solution(num_list, n) {
-  const length = num_list.length / n;
   const result = [];
   let arr = [];
 
