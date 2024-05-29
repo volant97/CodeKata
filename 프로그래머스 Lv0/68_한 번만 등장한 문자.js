@@ -1,3 +1,22 @@
+// 풀이 완료
+// else if (blackList.indexOf(arr[i]) === -1) 조건 추가해야함
+function solution(s) {
+  const arr = s.split("").sort();
+  const resultArr = [];
+  const blackList = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (resultArr.indexOf(arr[i]) === -1 && blackList.indexOf(arr[i]) === -1) {
+      resultArr.push(arr[i]);
+    } else if (blackList.indexOf(arr[i]) === -1) {
+      resultArr.splice(resultArr.indexOf(arr[i]), 1);
+      blackList.push(arr[i]);
+    }
+  }
+
+  return resultArr.join("");
+}
+
 // JS 2,4,5,9,10 테스트 케이스 오류
 // 수정 필요
 function solution(s) {
@@ -8,6 +27,7 @@ function solution(s) {
   for (let i = 0; i < arr.length; i++) {
     if (resultArr.indexOf(arr[i]) === -1 && blackList.indexOf(arr[i]) === -1) {
       resultArr.push(arr[i]);
+      // else if (blackList.indexOf(arr[i]) === -1) 조건으로 해야함
     } else {
       resultArr.splice(resultArr.indexOf(arr[i]), 1);
       blackList.push(arr[i]);
