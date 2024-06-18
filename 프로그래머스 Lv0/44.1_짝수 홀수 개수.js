@@ -1,3 +1,19 @@
+// 44.1
+function solution(num_list) {
+  const result = [0, 0];
+
+  num_list.forEach((item) => {
+    if (item % 2 === 0) {
+      result[0]++;
+    } else {
+      result[1]++;
+    }
+  });
+
+  return result;
+}
+
+// 44
 function solution(num_list) {
   let answer = [0, 0];
 
