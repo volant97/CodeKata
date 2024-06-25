@@ -1,3 +1,9 @@
+// 13.1
+function solution(arr) {
+  return arr.filter((v, i) => v !== arr[i - 1]);
+}
+
+// 기존풀이
 function solution(arr) {
   const answer = [];
 
