@@ -58,7 +58,7 @@ function solution(nums) {
 }
 
 // 다른풀이1
-// 에라토스테네스의 체 알고리즘
+// 에라토스테네스의 체 알고리즘... 인줄 알았으나 반만 사용한 것
 function primecheck(n) {
   for (var i = 2; i <= Math.sqrt(n); i++) {
     if (n % i == 0) {
